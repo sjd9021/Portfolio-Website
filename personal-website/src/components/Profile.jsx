@@ -1,5 +1,6 @@
 import React from "react";
 import "./Profile.modules.css";
+import { Link } from "react-router-dom";
 
 export default function Profile() {
   return (
@@ -25,16 +26,9 @@ export default function Profile() {
           </button>
 
           {/* Contact Info Button */}
-          <button
-            className="btn btn-color-1"
-            onClick={() =>
-              document
-                .getElementById("contact")
-                .scrollIntoView({ behavior: "smooth" })
-            }
-          >
-            Contact Info
-          </button>
+          <Link to="/#contact">
+            <button className="btn btn-color-1">Contact Info</button>
+          </Link>
         </div>
 
         <div id="socials-container">
@@ -43,7 +37,12 @@ export default function Profile() {
             src="linkedin.png"
             alt="My LinkedIn profile"
             className="icon"
-            onClick={() => window.open("https://linkedin.com", "_blank")}
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/samvit-jatia-5816a7206/",
+                "_blank"
+              )
+            }
           />
 
           {/* GitHub Profile */}
