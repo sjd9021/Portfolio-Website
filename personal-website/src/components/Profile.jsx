@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export default function Profile() {
   return (
     <section className="profile">
+      <div className="profile-grid"></div>
       <div className="section_pic-container">
         <img
           className="profile-pic"

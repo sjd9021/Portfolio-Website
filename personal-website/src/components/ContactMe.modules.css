@@ -1,0 +1,69 @@
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh; /* Keep the original height */
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  width: 40%; /* Maintain the original width */
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  margin: 2rem;
+  padding: 0.5rem; /* Keep the original padding */
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  #contact {
+    padding: 2rem 1rem; /* Add padding for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .contact-info-upper-container {
+    width: 80%; /* Adjust width for tablets */
+    flex-direction: column; /* Stack items vertically */
+    padding: 1rem; /* Increase padding for better spacing */
+  }
+
+  .contact-info-container {
+    width: 100%; /* Make containers full width */
+    margin: 1rem 0; /* Adjust margins */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-info-upper-container {
+    width: 100%; /* Full width on small screens */
+    padding: 1rem; /* Adjust padding */
+  }
+
+  .contact-info-container {
+    width: 100%; /* Full width for containers */
+    margin: 1rem 0; /* Adjust margins */
+  }
+}

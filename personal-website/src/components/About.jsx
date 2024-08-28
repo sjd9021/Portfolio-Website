@@ -1,12 +1,21 @@
 import React from "react";
 import "./About.modules.css";
-import { Link } from "react-router-dom";
 
 export default function About() {
   return (
     <section className="about" id="about">
+      <p
+        className="section_text_p1"
+        onClick={() =>
+          document
+            .getElementById("about")
+            .scrollIntoView({ behavior: "smooth" })
+        }
+      >
+        Get To Know More
+      </p>
+
       <div className="about-content">
-        <p className="section_text_p1">Get To Know More</p>
         <h1 className="title">About Me</h1>
         <div className="section-container">
           <div className="section_pic-container">
