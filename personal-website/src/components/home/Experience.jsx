@@ -1,5 +1,5 @@
 import React from "react";
-import "./Experience.modules.css";
+import "../../styles/Experience.modules.css";
 import ArticleCard from "./ArticleCard";
 
 export default function Experience() {

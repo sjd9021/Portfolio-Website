@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./Navigation.modules.css";
+import { Link } from "react-router-dom";
+import "../../styles/Navigation.modules.css";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,28 +11,35 @@ export default function Navigation() {
 
   return (
     <nav>
-      <div className="nav-logo">Samvit Jatia</div>
+      <Link to="/" className="nav-logo">
+        Samvit Jatia
+      </Link>
       <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="#about" onClick={toggleMenu}>
+            <Link to="/" onClick={toggleMenu}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/#about" onClick={toggleMenu}>
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#experience" onClick={toggleMenu}>
+            <Link to="/#experience" onClick={toggleMenu}>
               Experience
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#projects" onClick={toggleMenu}>
+            <Link to="/projects" onClick={toggleMenu}>
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#contact" onClick={toggleMenu}>
+            <Link to="/#contact" onClick={toggleMenu}>
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

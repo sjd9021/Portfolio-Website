@@ -1,23 +1,22 @@
-import "./App.css";
 import React from "react";
-import Navigation from "./components/Navigation";
-import Profile from "./components/Profile";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import ContactMe from "./components/ContactMe";
-import Footer from "./components/Footer";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navigation from "./components/common/Navigation";
+import Footer from "./components/common/Footer";
+import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
+// import ContactPage from "./pages/ContactPage";
+// import "./styles/global.css";
+
 function App() {
   return (
     <Router>
       <div className="App">
         <Navigation />
-        <Profile />
-        <About />
-        <Experience />
-        <Projects />
-        <ContactMe />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          {/* <Route path="/contact" element={<ContactPage />} /> */}
+        </Routes>
         <Footer />
       </div>
     </Router>

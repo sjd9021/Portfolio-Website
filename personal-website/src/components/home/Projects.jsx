@@ -1,6 +1,6 @@
 import React from "react";
-import "./Projects.modules.css";
-import ProjectCard from "./ProjectCard";
+import "../../styles/Projects.modules.css";
+import ProjectCard from "../projects/ProjectCard";
 
 export default function Projects() {
   const projects = [

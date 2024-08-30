@@ -1,5 +1,5 @@
 import React from "react";
-import "./ArticleCard.modules.css";
+import "../../styles/ArticleCard.modules.css";
 
 const ArticleCard = ({ iconSrc, title, level }) => {
   return (
