@@ -4,10 +4,11 @@ import ArticleCard from "./ArticleCard";
 
 export default function Experience() {
   const frontendSkills = [
-    { title: "HTML", level: "Experienced", iconSrc: "./checkmark.png" },
-    { title: "CSS", level: "Experienced", iconSrc: "./checkmark.png" },
+    { title: "HTML", level: "Intermediate", iconSrc: "./checkmark.png" },
+    { title: "CSS", level: "Intermediate", iconSrc: "./checkmark.png" },
     { title: "JavaScript", level: "Intermediate", iconSrc: "./checkmark.png" },
     { title: "React", level: "Intermediate", iconSrc: "./checkmark.png" },
+    { title: "EJS", level: "Intermediate", iconSrc: "./checkmark.png" },
     // Add more skills as needed
   ];
 
@@ -16,25 +17,30 @@ export default function Experience() {
     { title: "Express", level: "Intermediate", iconSrc: "./checkmark.png" },
     { title: "PostgreSql", level: "Intermediate", iconSrc: "./checkmark.png" },
     { title: "SQL", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "MongoDB", level: "Intermediate", iconSrc: "./checkmark.png" },
+    { title: "Axios", level: "Intermediate", iconSrc: "./checkmark.png" },
+    { title: "Flask", level: "Intermediate", iconSrc: "./checkmark.png" },
+    { title: "Typescript", level: "Intermediate", iconSrc: "./checkmark.png" },
+
     // Add more skills as needed
   ];
 
   const machineLearning = [
     { title: "Python", level: "Experienced", iconSrc: "./checkmark.png" },
     { title: "Tensorflow", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "Pytorch", level: "Intermediate", iconSrc: "./checkmark.png" },
+    { title: "Pytorch", level: "Beginner", iconSrc: "./checkmark.png" },
     {
       title: "Scikit-learn",
-      level: "Intermediate",
+      level: "Beginner",
       iconSrc: "./checkmark.png",
     },
+    { title: "LLaMa", level: "Experienced", iconSrc: "./checkmark.png" },
+    { title: "HuggingFace", level: "Experienced", iconSrc: "./checkmark.png" },
     // Add more
   ];
   return (
     <section className="experience" id="experience">
       <p className="section_text_p1">Explore My</p>
-      <h1 className="title">Experience</h1>
+      <h1 className="title">Tech Stack</h1>
       <div className="experience-details-container">
         <div className="about-containers">
           <div className="details-container">

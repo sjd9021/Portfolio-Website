@@ -115,9 +115,13 @@ section {
 .profile-grid {
   background-image: repeating-linear-gradient(
       rgba(0, 0, 0) 0 1px,
-      transparent 1px 100%
+      transparent 1.5px 100%
     ),
-    repeating-linear-gradient(90deg, rgba(0, 0, 0) 0 1px, transparent 1px 100%);
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 0, 0) 0 1px,
+      transparent 1.5px 100%
+    );
   background-size: calc(10vw - 6.6px) calc(10vw - 6.6px);
   border-radius: 500px;
   height: 100%;
@@ -131,6 +135,49 @@ section {
   z-index: -10;
 }
 
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.animated-title {
+  position: relative;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.animated-title::before,
+.animated-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.animated-title::before {
+  background: white; /* Adjust this to match your background color */
+  animation: typewriter 4s steps(12) 1s forwards;
+}
+
+.animated-title::after {
+  width: 0.125em;
+  background: black;
+  animation: typewriter 4s steps(12) 1s forwards, blink 750ms steps(12) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
 @media screen and (max-width: 1200px) {
   section {
     margin: 0 5rem;
@@ -208,5 +255,22 @@ section {
   .btn {
     width: 100%;
     max-width: 200px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* ... (keep existing styles) ... */
+
+  .title,
+  .animated-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* ... (keep existing styles) ... */
+
+  .title,
+  .animated-title {
+    font-size: 2rem;
   }
 }

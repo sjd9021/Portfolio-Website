@@ -5,55 +5,93 @@ import "../styles/ProjectsPage.modules.css";
 const ProjectsPage = () => {
   const projects = [
     {
-      title: "Better Communication",
-      description: "A remote work tool for improving team communication.",
+      title: "AshokaCoin",
+      description:
+        "Ethereum-based token for Ashoka University coded in Solidity.",
+      imageSrc: "AshokaCoin.png",
+      githubLink: "https://github.com/sjd9021/AshokaCoin",
+      demoLink: "https://project-one-demo.com",
+    },
+    {
+      title: "ProtienBert",
+      description:
+        "Transformer model to predict influenza protein sequences, aiding vaccine and antiviral research.",
+      imageSrc: "ProtienBert.png",
+      githubLink: "https://github.com/sjd9021/ProtienBert",
+      demoLink: "personal-website/public/samvit_jatia_ISM_report.pdf",
+    },
+    {
+      title: "Clipaha",
+      description:
+        "Client side hashing algorithm for IOT devices to offload server's computational costs",
+      imageSrc: "project-1.png",
+      githubLink: "https://github.com/sjd9021/Clipaha-hashing",
+      demoLink: "clipaha.pdf",
+    },
+    {
+      title: "Attention Transformer",
+      description:
+        "Deep learning transformer built and trained from scratch to learn and generate new shakespeare like text",
+      imageSrc: "project-1.png",
+      githubLink: "https://github.com/sjd9021/Attention-Transformer",
+      demoLink: "https://project-one-demo.com",
+    },
+    {
+      title: "Minesweeper AI",
+      description:
+        "Minesweeper game against an AI player making logical deductions using Minimax algorithm",
+      imageSrc: "project-1.png",
+      githubLink: "https://github.com/sjd9021/Minesweeper-auto",
+      demoLink: "https://project-one-demo.com",
+    },
+    {
+      title: "Crypto Arbitrage Bot",
+      description:
+        "Trading bot to exploit price differences in the stablecoin prices amongst Indian crypto exchanges",
+      imageSrc: "project-1.png",
+      githubLink: "https://github.com/sjd9021/Crypto-Arbitrage",
+      demoLink: "https://project-one-demo.com",
+    },
+    {
+      title: "PicQuery",
+      description:
+        "AI image parser which allows user to search and query images using descriptions and prompts.",
+      imageSrc: "project-1.png",
+      githubLink: "https://github.com/sjd9021/PicQuery",
+      demoLink: "https://project-one-demo.com",
+    },
+    {
+      title: "Personality Classifier",
+      description:
+        "Bert Models trained to aid IPL marketting teams for either classifying a tweets sentiment or getting the overall sentiment of an IPL player based on the public perception.",
       imageSrc: "project-1.png",
       githubLink: "https://github.com/your-username/project-one",
       demoLink: "https://project-one-demo.com",
     },
     {
-      title: "Better Communication",
-      description: "A remote work tool for improving team communication.",
+      title: "Hotel Booking Website",
+      description:
+        "Fullstack project for booking hotels and managing reservations.",
       imageSrc: "project-1.png",
-      githubLink: "https://github.com/your-username/project-one",
+      githubLink: "https://github.com/sjd9021/HotelBookings",
       demoLink: "https://project-one-demo.com",
     },
     {
-      title: "Better Communication",
-      description: "A remote work tool for improving team communication.",
+      title: "Translation App",
+      description:
+        "Encoder-Decoder ML model built and trained from scratch to translate English to Spanish",
       imageSrc: "project-1.png",
-      githubLink: "https://github.com/your-username/project-one",
+      githubLink: "https://github.com/sjd9021/Spanish-Translator",
       demoLink: "https://project-one-demo.com",
     },
     {
-      title: "Better Communication",
-      description: "A remote work tool for improving team communication.",
+      title: "E-Commerce Website",
+      description:
+        "Mock E-commerce website built as a part of a final project for CS-531 under Prof. Anirban Mondal",
       imageSrc: "project-1.png",
-      githubLink: "https://github.com/your-username/project-one",
+      githubLink: "https://github.com/sjd9021/HotelBookings",
       demoLink: "https://project-one-demo.com",
     },
-    {
-      title: "Better Communication",
-      description: "A remote work tool for improving team communication.",
-      imageSrc: "project-1.png",
-      githubLink: "https://github.com/your-username/project-one",
-      demoLink: "https://project-one-demo.com",
-    },
-    {
-      title: "Better Communication",
-      description: "A remote work tool for improving team communication.",
-      imageSrc: "project-1.png",
-      githubLink: "https://github.com/your-username/project-one",
-      demoLink: "https://project-one-demo.com",
-    },
-    {
-      title: "Better Communication",
-      description: "A remote work tool for improving team communication.",
-      imageSrc: "project-1.png",
-      githubLink: "https://github.com/your-username/project-one",
-      demoLink: "https://project-one-demo.com",
-    },
-
     // Add more projects as needed
   ];
 

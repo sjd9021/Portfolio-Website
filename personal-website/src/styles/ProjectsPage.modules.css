@@ -61,9 +61,10 @@
   color: #333;
 }
 
-.project-page-description {
-  font-size: 0.9rem;
-  color: #666;
+.project-description {
+  font-size: 1rem;
+  color: black;
+  font-weight: 800;
   margin-bottom: 1rem;
   flex-grow: 1;
 }

@@ -29,8 +29,8 @@ export default function Projects() {
 
   return (
     <section id="projects">
-      <p className="section_text_p1">Browse My Recent</p>
-      <h1 className="title">Projects</h1>
+      <p className="section_text_p1">Browse My</p>
+      <h1 className="title">Top Projects</h1>
       <div className="experience-details-container">
         <div className="about-containers">
           {projects.map((project, index) => (

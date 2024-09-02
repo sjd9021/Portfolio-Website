@@ -15,7 +15,7 @@ export default function Profile() {
       </div>
       <div className="section_text">
         <p className="section_text_p1">Hello, I'm</p>
-        <h1 className="title">Samvit Jatia</h1>
+        <h1 className="title animated-title">Samvit Jatia</h1>
         <p className="section_text_p2">Software Developer</p>
         <div className="btn-container">
           {/* Download CV Button */}

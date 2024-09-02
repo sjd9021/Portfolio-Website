@@ -31,9 +31,11 @@ export default function About() {
                 />
                 <h3>Experience</h3>
                 <p>
-                  1+ year
+                  FullStack + ML developer @ RediMinds
                   <br />
-                  Software Development
+                  Machine Learning Intern @ Zensar Technologies
+                  <br />
+                  Product Development in Blockchain @ GoodGameNation
                 </p>
               </div>
               <div className="details-container">
@@ -55,10 +57,12 @@ export default function About() {
             </div>
             <div className="text-container">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                vero fugit quia, earum quasi delectus beatae, perspiciatis omnis
-                ducimus vitae error suscipit asperiores! Nesciunt quod eveniet
-                laboriosam temporibus, ad iusto.
+                Currently working remotely as an engineer at RediMinds, Inc., I
+                am passionate in the fields of Machine Learning, Blockchain, and
+                finance. I thrive on creating innovative solutions to real-world
+                problems. Outside of work, you'll find me watching sports,
+                enjoying movies, exploring new destinations, or indulging in my
+                love for food.
               </p>
             </div>
           </div>
