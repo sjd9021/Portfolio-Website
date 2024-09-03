@@ -20,7 +20,9 @@ export default function ContactMe() {
             class="icon contact-icon"
           ></img>
           <p>
-            <a href="www.linkedin.com">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/samvit-jatia-5816a7206">
+              LinkedIn
+            </a>
           </p>
         </div>
       </div>

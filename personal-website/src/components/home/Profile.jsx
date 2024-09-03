@@ -27,9 +27,10 @@ export default function Profile() {
           </button>
 
           {/* Contact Info Button */}
-          <Link to="/#contact">
+          {/* Contact Info Button */}
+          <a href="#contact">
             <button className="btn btn-color-1">Contact Info</button>
-          </Link>
+          </a>
         </div>
 
         <div id="socials-container">
