@@ -1,89 +1,70 @@
 import React from "react";
 import "../../styles/Experience.modules.css";
-import ArticleCard from "./ArticleCard";
+const SkillCard = ({ title, level }) => (
+  <div className="skill-card">
+    <div className="skill-icon">✓</div>
+    <div className="skill-info">
+      <h3 className="skill-title">{title}</h3>
+      <p className="skill-level">{level}</p>
+    </div>
+  </div>
+);
 
-export default function Experience() {
+const SkillSection = ({ title, skills }) => (
+  <div className="skill-section">
+    <h2 className="section-title">{title}</h2>
+    <div className="skills-grid">
+      {skills.map((skill, index) => (
+        <SkillCard key={index} title={skill.title} level={skill.level} />
+      ))}
+    </div>
+  </div>
+);
+
+const Experience = () => {
   const frontendSkills = [
-    { title: "HTML", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "CSS", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "JavaScript", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "React", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "EJS", level: "Intermediate", iconSrc: "./checkmark.png" },
-    // Add more skills as needed
+    { title: "HTML", level: "Intermediate" },
+    { title: "CSS", level: "Intermediate" },
+    { title: "JavaScript", level: "Intermediate" },
+    { title: "React", level: "Intermediate" },
+    { title: "EJS", level: "Intermediate" },
   ];
 
   const backendSkills = [
-    { title: "Node.js", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "Express", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "PostgreSql", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "SQL", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "Axios", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "Flask", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "Typescript", level: "Intermediate", iconSrc: "./checkmark.png" },
-
-    // Add more skills as needed
+    { title: "Node.js", level: "Intermediate" },
+    { title: "Express", level: "Intermediate" },
+    { title: "PostgreSQL", level: "Intermediate" },
+    { title: "SQL", level: "Intermediate" },
+    { title: "Axios", level: "Intermediate" },
+    { title: "Flask", level: "Intermediate" },
+    { title: "TypeScript", level: "Intermediate" },
   ];
 
-  const machineLearning = [
-    { title: "Python", level: "Experienced", iconSrc: "./checkmark.png" },
-    { title: "Tensorflow", level: "Intermediate", iconSrc: "./checkmark.png" },
-    { title: "Pytorch", level: "Beginner", iconSrc: "./checkmark.png" },
-    {
-      title: "Scikit-learn",
-      level: "Beginner",
-      iconSrc: "./checkmark.png",
-    },
-    { title: "LLaMa", level: "Experienced", iconSrc: "./checkmark.png" },
-    { title: "HuggingFace", level: "Experienced", iconSrc: "./checkmark.png" },
-    // Add more
+  const machineLearningSkills = [
+    { title: "Python", level: "Experienced" },
+    { title: "TensorFlow", level: "Intermediate" },
+    { title: "PyTorch", level: "Beginner" },
+    { title: "Scikit-learn", level: "Beginner" },
+    { title: "LLaMa", level: "Experienced" },
+    { title: "HuggingFace", level: "Experienced" },
   ];
+
   return (
-    <section className="experience" id="experience">
-      <p className="section_text_p1">Explore My</p>
-      <h1 className="title">Tech Stack</h1>
-      <div className="experience-details-container">
-        <div className="about-containers">
-          <div className="details-container">
-            <h2 className="details-title">Frontend Development</h2>
-            <div className="article-container">
-              {frontendSkills.map((skill, index) => (
-                <ArticleCard
-                  key={index}
-                  iconSrc={skill.iconSrc}
-                  title={skill.title}
-                  level={skill.level}
-                />
-              ))}
-            </div>
-          </div>
-          <div className="details-container">
-            <h2 className="details-title">Backend Development</h2>
-            <div className="article-container">
-              {backendSkills.map((skill, index) => (
-                <ArticleCard
-                  key={index}
-                  iconSrc={skill.iconSrc}
-                  title={skill.title}
-                  level={skill.level}
-                />
-              ))}
-            </div>
-          </div>
-          <div className="details-container">
-            <h2 className="details-title">Machine Learning</h2>
-            <div className="article-container">
-              {machineLearning.map((skill, index) => (
-                <ArticleCard
-                  key={index}
-                  iconSrc={skill.iconSrc}
-                  title={skill.title}
-                  level={skill.level}
-                />
-              ))}
-            </div>
-          </div>
+    <section id="experience" className="experience-section">
+      <div className="container">
+        <h1 className="main-title">Tech Stack</h1>
+        <p className="subtitle">Explore My Skills</p>
+        <div className="skills-container">
+          <SkillSection
+            title="Frontend Development"
+            skills={machineLearningSkills}
+          />
+          <SkillSection title="Backend Development" skills={backendSkills} />
+          <SkillSection title="Machine Learning" skills={frontendSkills} />
         </div>
       </div>
     </section>
   );
-}
+};
+
+export default Experience;

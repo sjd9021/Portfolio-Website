@@ -6,11 +6,31 @@
   height: auto;
 }
 
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.view-all-arrow {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.view-all-arrow:hover {
+  transform: translateX(5px);
+}
+
 #projects .experience-details-container {
   max-width: 1600px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 #projects .about-containers {
@@ -52,6 +72,16 @@
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.view-all-link {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 /* Responsive design */

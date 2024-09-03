@@ -7,6 +7,7 @@ const ProjectPageCard = ({
   imageSrc,
   githubLink,
   demoLink,
+  type,
 }) => {
   return (
     <div className="color-container project-page-card">
@@ -32,7 +33,7 @@ const ProjectPageCard = ({
           rel="noopener noreferrer"
           className="project-page-button"
         >
-          Live Demo
+          {type}
         </a>
       </div>
     </div>

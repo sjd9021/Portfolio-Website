@@ -1,43 +1,59 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/Projects.modules.css";
-import ProjectCard from "../projects/ProjectCard";
+import ProjectPageCard from "../projects/ProjectPageCard";
+import { ArrowRight } from "lucide-react";
 
 export default function Projects() {
   const projects = [
     {
-      imgSrc: "./project-1.png",
-      imgAlt: "Project 1",
-      title: "Project One",
-      githubLink: "https://github.com/",
-      demoLink: "https://github.com/",
+      title: "Attention Transformer",
+      description:
+        "Deep learning transformer built and trained from scratch using PyTorch to learn and generate new shakespeare like text",
+      imageSrc: "capstone.png",
+      githubLink: "https://github.com/sjd9021/Attention-Transformer",
+      demoLink: "https://project-one-demo.com",
+      type: "View Paper",
     },
     {
-      imgSrc: "./project-2.png",
-      imgAlt: "Project 2",
-      title: "Project two",
-      githubLink: "https://github.com/",
-      demoLink: "https://github.com/",
+      title: "AshokaCoin",
+      description:
+        "Cryptocurrency built on the Ethereum network, designed to simulate an Initial Coin Offering (ICO). Coded in Solidity.",
+      imageSrc: "project-13.png",
+      githubLink: "https://github.com/sjd9021/AshokaCoin",
+      demoLink: "https://project-one-demo.com",
+      type: "Live Demo",
     },
     {
-      imgSrc: "./project-3.png",
-      imgAlt: "Project 3",
-      title: "Project three",
-      githubLink: "https://github.com/",
-      demoLink: "https://github.com/",
+      title: "Clipaha",
+      description:
+        "Client side hashing algorithm for IOT devices to offload server's computational costs",
+      imageSrc: "clipaha-img.png",
+      githubLink: "https://github.com/sjd9021/Clipaha-hashing",
+      demoLink: "clipaha.pdf",
+      type: "View Paper",
     },
   ];
 
   return (
     <section id="projects">
       <p className="section_text_p1">Browse My</p>
-      <h1 className="title">Top Projects</h1>
+      <div className="title-container">
+        <h1 className="title">Top Projects</h1>
+        <Link to="/projects" className="view-all-arrow">
+          <ArrowRight size={30} />
+        </Link>
+      </div>
       <div className="experience-details-container">
         <div className="about-containers">
           {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} />
+            <ProjectPageCard key={index} {...project} />
           ))}
         </div>
       </div>
+      <Link to="/projects" className="view-all-link">
+        <a>View All Projects</a>
+      </Link>
     </section>
   );
 }
