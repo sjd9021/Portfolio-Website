@@ -8,7 +8,7 @@ const ProjectsPage = () => {
       title: "AshokaCoin",
       description:
         "Ethereum-based token for Ashoka University coded in Solidity.",
-      imageSrc: "AshokaCoin.png",
+      imageSrc: "project-13.png",
       githubLink: "https://github.com/sjd9021/AshokaCoin",
       demoLink: "https://project-one-demo.com",
     },
@@ -24,7 +24,7 @@ const ProjectsPage = () => {
       title: "Clipaha",
       description:
         "Client side hashing algorithm for IOT devices to offload server's computational costs",
-      imageSrc: "project-1.png",
+      imageSrc: "clipaha-img.png",
       githubLink: "https://github.com/sjd9021/Clipaha-hashing",
       demoLink: "clipaha.pdf",
     },
@@ -32,15 +32,15 @@ const ProjectsPage = () => {
       title: "Attention Transformer",
       description:
         "Deep learning transformer built and trained from scratch to learn and generate new shakespeare like text",
-      imageSrc: "project-1.png",
+      imageSrc: "capstone.png",
       githubLink: "https://github.com/sjd9021/Attention-Transformer",
       demoLink: "https://project-one-demo.com",
     },
     {
       title: "Minesweeper AI",
       description:
-        "Minesweeper game against an AI player making logical deductions using Minimax algorithm",
-      imageSrc: "project-1.png",
+        "Minesweeper game with an AI player making logical deductions using Minimax algorithm",
+      imageSrc: "Minesweeper.png",
       githubLink: "https://github.com/sjd9021/Minesweeper-auto",
       demoLink: "https://project-one-demo.com",
     },
@@ -48,7 +48,7 @@ const ProjectsPage = () => {
       title: "Crypto Arbitrage Bot",
       description:
         "Trading bot to exploit price differences in the stablecoin prices amongst Indian crypto exchanges",
-      imageSrc: "project-1.png",
+      imageSrc: "arb.png",
       githubLink: "https://github.com/sjd9021/Crypto-Arbitrage",
       demoLink: "https://project-one-demo.com",
     },
@@ -56,7 +56,7 @@ const ProjectsPage = () => {
       title: "PicQuery",
       description:
         "AI image parser which allows user to search and query images using descriptions and prompts.",
-      imageSrc: "project-1.png",
+      imageSrc: "pic.png",
       githubLink: "https://github.com/sjd9021/PicQuery",
       demoLink: "https://project-one-demo.com",
     },
@@ -64,8 +64,16 @@ const ProjectsPage = () => {
       title: "Personality Classifier",
       description:
         "Bert Models trained to aid IPL marketting teams for either classifying a tweets sentiment or getting the overall sentiment of an IPL player based on the public perception.",
-      imageSrc: "project-1.png",
+      imageSrc: "classifier.png",
       githubLink: "https://github.com/your-username/project-one",
+      demoLink: "https://project-one-demo.com",
+    },
+    {
+      title: "Translation App",
+      description:
+        "Encoder-Decoder ML model built and trained from scratch to translate English to Spanish",
+      imageSrc: "encoder-decoder.png",
+      githubLink: "https://github.com/sjd9021/Spanish-Translator",
       demoLink: "https://project-one-demo.com",
     },
     {
@@ -77,18 +85,10 @@ const ProjectsPage = () => {
       demoLink: "https://project-one-demo.com",
     },
     {
-      title: "Translation App",
-      description:
-        "Encoder-Decoder ML model built and trained from scratch to translate English to Spanish",
-      imageSrc: "project-1.png",
-      githubLink: "https://github.com/sjd9021/Spanish-Translator",
-      demoLink: "https://project-one-demo.com",
-    },
-    {
       title: "E-Commerce Website",
       description:
         "Mock E-commerce website built as a part of a final project for CS-531 under Prof. Anirban Mondal",
-      imageSrc: "project-1.png",
+      imageSrc: "e-commerce.png",
       githubLink: "https://github.com/sjd9021/HotelBookings",
       demoLink: "https://project-one-demo.com",
     },
