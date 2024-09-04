@@ -5,19 +5,10 @@ import "../styles/ProjectsPage.modules.css";
 const ProjectsPage = () => {
   const projects = [
     {
-      title: "AshokaCoin",
-      description:
-        "Cryptocurrency built on the Ethereum network, designed to simulate an Initial Coin Offering (ICO). Coded in Solidity.",
-      imageSrc: "project-13.png",
-      githubLink: "https://github.com/sjd9021/AshokaCoin",
-      demoLink: "https://ashokacoin.netlify.app/",
-      type: "Live Demo",
-    },
-    {
       title: "ProtienBert",
       description:
         "Transformer model to predict influenza protein sequences, aiding vaccine and antiviral research.",
-      imageSrc: "ProtienBert.png",
+      imageSrc: "clipaha2.png",
       githubLink: "https://github.com/sjd9021/ProtienBert",
       demoLink: "samvit_jatia_ISM_report.pdf",
       type: "View Paper",
@@ -32,6 +23,15 @@ const ProjectsPage = () => {
       type: "View Paper",
     },
     {
+      title: "Minesweeper AI",
+      description:
+        "Minesweeper game with an AI player making logical deductions using Minimax algorithm",
+      imageSrc: "Minesweeper.png",
+      githubLink: "https://github.com/sjd9021/Minesweeper-auto",
+      demoLink: "https://github.com/sjd9021/Minesweeper-auto",
+      type: "Live Demo",
+    },
+    {
       title: "Attention Transformer",
       description:
         "Deep learning transformer built and trained from scratch to learn and generate new shakespeare like text",
@@ -40,13 +40,14 @@ const ProjectsPage = () => {
       demoLink: "Attention.pdf",
       type: "View Paper",
     },
+
     {
-      title: "Minesweeper AI",
+      title: "AshokaCoin",
       description:
-        "Minesweeper game with an AI player making logical deductions using Minimax algorithm",
-      imageSrc: "Minesweeper.png",
-      githubLink: "https://github.com/sjd9021/Minesweeper-auto",
-      demoLink: "https://github.com/sjd9021/Minesweeper-auto",
+        "Cryptocurrency built on the Ethereum network, designed to simulate an Initial Coin Offering (ICO). Coded in Solidity.",
+      imageSrc: "project-13.png",
+      githubLink: "https://github.com/sjd9021/AshokaCoin",
+      demoLink: "https://ashokacoin.netlify.app/",
       type: "Live Demo",
     },
     {
@@ -83,15 +84,6 @@ const ProjectsPage = () => {
       imageSrc: "encoder-decoder.png",
       githubLink: "https://github.com/sjd9021/Spanish-Translator",
       demoLink: "https://github.com/sjd9021/Spanish-Translator",
-      type: "Live Demo",
-    },
-    {
-      title: "Hotel Booking Website",
-      description:
-        "Fullstack project for booking hotels and managing reservations.",
-      imageSrc: "project-1.png",
-      githubLink: "https://github.com/sjd9021/HotelBookings",
-      demoLink: "",
       type: "Live Demo",
     },
     {

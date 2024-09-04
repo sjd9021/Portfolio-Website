@@ -28,7 +28,7 @@ export default function Navigation() {
           </li>
           <li>
             <a href="#experience" onClick={toggleMenu}>
-              Experience
+              Tech Stack
             </a>
           </li>
           <li>

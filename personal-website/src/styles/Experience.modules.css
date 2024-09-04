@@ -1,9 +1,11 @@
 .experience-section {
   padding: 3rem 0;
+  min-height: 90vh;
+  height: auto;
 }
 
 .container {
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
 }

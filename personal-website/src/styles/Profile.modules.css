@@ -11,7 +11,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 4rem;
   height: 73vh;
 }
 
@@ -19,8 +19,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   margin: 0;
   overflow: hidden;
   border-radius: 50%;
@@ -48,40 +48,35 @@ section {
 }
 
 .section_text_p2 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
-}
-
-.title {
-  font-size: 3rem;
-  text-align: center;
 }
 
 #socials-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
 }
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 1.8rem;
 }
 
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
 }
 
 .btn {
   font-weight: 600;
   transition: all 0.3s ease;
-  padding: 1rem;
+  padding: 0.8rem;
   width: 8rem;
-  border-radius: 2rem;
+  border-radius: 1.8rem;
 }
 
 .btn-color-1,
@@ -129,14 +124,14 @@ section {
   margin: 0 auto;
   opacity: 0.1;
   position: absolute;
-  top: 20px;
+  top: 0;
   left: 0;
   width: 100%;
   z-index: -10;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.2em;
   text-align: center;
 }
 

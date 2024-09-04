@@ -41,6 +41,8 @@
 }
 
 #projects .color-container {
+  margin-bottom: 3rem;
+
   background: #ffffff;
   border-radius: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

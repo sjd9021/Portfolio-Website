@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%; /* Ensure full width */
-  max-width: 1600px; /* Limit maximum width for larger screens */
+  max-width: 1200px; /* Limit maximum width for larger screens */
   margin-top: auto; /* Push content to center vertically */
   margin-bottom: auto; /* Push content to center vertically */
 }
@@ -47,8 +47,8 @@
 }
 
 #about .about-pic {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 2rem;
   object-fit: cover;
 }

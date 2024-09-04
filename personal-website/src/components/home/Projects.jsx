@@ -16,6 +16,15 @@ export default function Projects() {
       type: "View Paper",
     },
     {
+      title: "ProtienBert",
+      description:
+        "Transformer model to predict influenza protein sequences, aiding vaccine and antiviral research.",
+      imageSrc: "clipaha2.png",
+      githubLink: "https://github.com/sjd9021/ProtienBert",
+      demoLink: "samvit_jatia_ISM_report.pdf",
+      type: "View Paper",
+    },
+    {
       title: "AshokaCoin",
       description:
         "Cryptocurrency built on the Ethereum network, designed to simulate an Initial Coin Offering (ICO). Coded in Solidity.",
@@ -23,15 +32,6 @@ export default function Projects() {
       githubLink: "https://github.com/sjd9021/AshokaCoin",
       demoLink: "https://project-one-demo.com",
       type: "Live Demo",
-    },
-    {
-      title: "Clipaha",
-      description:
-        "Client side hashing algorithm for IOT devices to offload server's computational costs",
-      imageSrc: "clipaha-img.png",
-      githubLink: "https://github.com/sjd9021/Clipaha-hashing",
-      demoLink: "clipaha.pdf",
-      type: "View Paper",
     },
   ];
 

@@ -38,6 +38,7 @@ const Experience = () => {
     { title: "Axios", level: "Intermediate" },
     { title: "Flask", level: "Intermediate" },
     { title: "TypeScript", level: "Intermediate" },
+    { title: "Solidity", level: "Intermediate" },
   ];
 
   const machineLearningSkills = [
@@ -47,6 +48,8 @@ const Experience = () => {
     { title: "Scikit-learn", level: "Beginner" },
     { title: "LLaMa", level: "Experienced" },
     { title: "HuggingFace", level: "Experienced" },
+    { title: "NER", level: "Beginner" },
+    { title: "SpaCy", level: "Intermediate" },
   ];
 
   return (
@@ -56,11 +59,11 @@ const Experience = () => {
         <p className="subtitle">Explore My Skills</p>
         <div className="skills-container">
           <SkillSection
-            title="Frontend Development"
+            title="Machine Learning"
             skills={machineLearningSkills}
           />
           <SkillSection title="Backend Development" skills={backendSkills} />
-          <SkillSection title="Machine Learning" skills={frontendSkills} />
+          <SkillSection title="Frontend Development" skills={frontendSkills} />
         </div>
       </div>
     </section>
