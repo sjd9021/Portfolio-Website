@@ -12,7 +12,7 @@ export default function Projects() {
         "Deep learning transformer built and trained from scratch using PyTorch to learn and generate new shakespeare like text",
       imageSrc: "capstone.png",
       githubLink: "https://github.com/sjd9021/Attention-Transformer",
-      demoLink: "https://project-one-demo.com",
+      demoLink: "Attention.pdf",
       type: "View Paper",
     },
     {
@@ -30,7 +30,7 @@ export default function Projects() {
         "Cryptocurrency built on the Ethereum network, designed to simulate an Initial Coin Offering (ICO). Coded in Solidity.",
       imageSrc: "project-13.png",
       githubLink: "https://github.com/sjd9021/AshokaCoin",
-      demoLink: "https://project-one-demo.com",
+      demoLink: "https://ashokacoin.netlify.app/",
       type: "Live Demo",
     },
   ];
@@ -51,8 +51,8 @@ export default function Projects() {
           ))}
         </div>
       </div>
-      <Link to="/projects" className="view-all-link">
-        <a>View All Projects</a>
+      <Link to="/projects" className="links">
+        View All Projects
       </Link>
     </section>
   );

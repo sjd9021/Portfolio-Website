@@ -22,7 +22,8 @@ ul {
   list-style: none;
 }
 
-a {
+a,
+.links {
   text-decoration: none;
   color: black;
   font-size: 1.2rem; /* Reduced from 1.5rem */

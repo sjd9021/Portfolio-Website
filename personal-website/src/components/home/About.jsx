@@ -57,12 +57,16 @@ export default function About() {
             </div>
             <div className="text-container">
               <p>
-                Currently working remotely as an engineer at RediMinds, Inc., I
-                am passionate in the fields of Machine Learning, Blockchain, and
+                Currently working as an AI engineer at RediMinds, Inc., My
+                passions lie in the field of Machine Learning, Blockchain, and
                 finance. I thrive on creating innovative solutions to real-world
-                problems. Outside of work, you'll find me watching sports,
-                enjoying movies, exploring new destinations, or indulging in my
-                love for food.
+                problems. Driven by the challenge of applying cutting-edge
+                technologies to solve complex issues, my focus is on delivering
+                impactful, practical applications that creates value for
+                businesses and society. Outside of work, you'll probably catch
+                me scrambling to put together my FPL team, chilling with a good
+                movie, planning my next trip, or hunting down the best food
+                spots in town.
               </p>
             </div>
           </div>

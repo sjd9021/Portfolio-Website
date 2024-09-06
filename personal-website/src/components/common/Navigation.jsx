@@ -17,27 +17,27 @@ export default function Navigation() {
       <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <Link to="/">
-              <a>Home</a>
+            <Link to="/" className="links" onClick={toggleMenu}>
+              Home
             </Link>
           </li>
           <li>
-            <a href="#about" onClick={toggleMenu}>
+            <a href="#about" className="links" onClick={toggleMenu}>
               About
             </a>
           </li>
           <li>
-            <a href="#experience" onClick={toggleMenu}>
+            <a href="#experience" className="links" onClick={toggleMenu}>
               Tech Stack
             </a>
           </li>
           <li>
-            <Link to="/projects" onClick={toggleMenu}>
+            <Link to="/projects" className="links" onClick={toggleMenu}>
               Projects
             </Link>
           </li>
           <li>
-            <a href="#contact" onClick={toggleMenu}>
+            <a href="#contact" className="links" onClick={toggleMenu}>
               Contact
             </a>
           </li>

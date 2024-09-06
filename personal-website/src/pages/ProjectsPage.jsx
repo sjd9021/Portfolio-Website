@@ -73,8 +73,8 @@ const ProjectsPage = () => {
       description:
         "Bert Models trained to aid IPL marketting teams for either classifying a tweets sentiment or getting the overall sentiment of an IPL player based on the public perception.",
       imageSrc: "classifier.png",
-      githubLink: "https://github.com/your-username/project-one",
-      demoLink: "https://project-one-demo.com",
+      githubLink: "https://github.com/sjd9021/Personality-Classifier",
+      demoLink: "",
       type: "View Paper",
     },
     {
