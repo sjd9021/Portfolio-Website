@@ -1,5 +1,4 @@
 section {
-  padding-top: 1vh;
   height: 85vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -109,12 +108,12 @@ section {
 
 .profile-grid {
   background-image: repeating-linear-gradient(
-      rgba(0, 0, 0) 0 1px,
+      rgba(0, 0, 0, 1) 0 1px,
       transparent 1.5px 100%
     ),
     repeating-linear-gradient(
       90deg,
-      rgba(0, 0, 0) 0 1px,
+      rgba(0, 0, 0, 1) 0 1px,
       transparent 1.5px 100%
     );
   background-size: calc(10vw - 6.6px) calc(10vw - 6.6px);
@@ -175,7 +174,7 @@ section {
 }
 @media screen and (max-width: 1200px) {
   section {
-    margin: 0 5rem;
+    margin: 0 0rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -195,6 +194,7 @@ section {
 @media screen and (max-width: 992px) {
   .profile {
     flex-direction: column;
+    min-height: 750px;
     height: auto;
     gap: 2rem;
   }
@@ -215,7 +215,7 @@ section {
 
 @media screen and (max-width: 768px) {
   section {
-    margin: 0 2rem;
+    margin: 0 0rem;
   }
 
   .profile > .section_pic-container {
