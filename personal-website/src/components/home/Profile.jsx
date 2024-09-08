@@ -20,7 +20,7 @@ export default function Profile() {
           {/* Download CV Button */}
           <button
             className="btn btn-color-2"
-            onClick={() => window.open("resume-example.pdf", "_blank")}
+            onClick={() => window.open("SamvitJatiaResume.pdf", "_blank")}
           >
             Download CV
           </button>
